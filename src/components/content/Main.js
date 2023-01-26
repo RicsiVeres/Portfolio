@@ -9,7 +9,19 @@ function Main() {
           Hello, <span id="im">I'm</span>
         </p>
         <h3 id="name">Veres Richard</h3>
-        <h4 id="job">Junior Frontend Developer</h4>
+        <div className="hero">
+          <ul className="dynamic-txts">
+            <li>
+              <span>Junior</span>
+            </li>
+            <li>
+              <span>Frontend</span>
+            </li>
+            <li>
+              <span>Developer</span>
+            </li>
+          </ul>
+        </div>
         <p id="description">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -23,15 +35,15 @@ function Main() {
       <div id="socialmedia">
         <a
           href="https://www.facebook.com/ricsi.veres.94/"
-          class="gg-facebook media-btn"
+          className="fa fa-facebook media-btn"
         ></a>
         <a
           href="https://www.instagram.com/ricsiveres/"
-          class="gg-instagram media-btn"
+          className="fa fa-instagram media-btn"
         ></a>
         <a
           href="https://github.com/RicsiVeres"
-          class="gg-git-fork media-btn"
+          className="fa fa-github media-btn"
         ></a>
       </div>
     </div>
