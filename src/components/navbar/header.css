@@ -1,0 +1,32 @@
+:root {
+  --White: #fff;
+  --Secundary: #27dfb7;
+  --Hovered: #4ceecb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 8%;
+}
+.navBtn {
+  font-size: 1.5rem;
+}
+.navBtn a {
+  margin: 0 1rem;
+  font-weight: 500;
+}
+.navBtn a:hover {
+  color: var(--Hovered);
+  transition-delay: 0.08s;
+}
+.active {
+  color: var(--Secundary);
+}
+#portfolio {
+  font-weight: 900;
+}

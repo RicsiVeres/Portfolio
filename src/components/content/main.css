@@ -1,0 +1,73 @@
+@import url("https://css.gg/css?=|facebook|git-fork|instagram");
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --White: #fff;
+  --Secundary: #20c29f;
+  --Hovered: #4dd3b6;
+}
+#im {
+  color: var(--Secundary);
+  margin-left: 10px;
+}
+.left-Side p {
+  font-size: 1.5rem;
+  max-width: 50%;
+}
+.left-Side {
+  margin-top: 5vh;
+}
+.content {
+  display: flex;
+  margin: 10% 20%;
+  justify-content: space-between;
+}
+#name {
+  color: var(--Secundary);
+  font-size: 5rem;
+  padding: 1rem 0;
+}
+#job {
+  font-size: 1.3rem;
+  margin-bottom: 2.5rem;
+}
+#description {
+  font-size: 1.2rem;
+  max-width: 100%;
+  margin-bottom: 5rem;
+}
+.btn {
+  width: 150px;
+  text-decoration: none;
+  background-color: var(--Secundary);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 800;
+  color: var(--White);
+  box-shadow: 3px 12px 20px #4ceecb4f;
+  font-size: 20px;
+}
+.btn:hover {
+  background-color: var(--Hovered);
+}
+.right-Side img {
+  margin-top: 5vh;
+  zoom: 0.6;
+  width: 40vw;
+  min-width: 550px;
+}
+.socialmedia {
+  display: flex;
+  margin-top: 5vh;
+}
+.media-btn {
+  margin: 2rem;
+  color: var(--Secundary);
+  margin-top: 5rem;
+  margin-left: 3rem;
+}
+.media-btn:hover {
+  color: var(--White);
+}
