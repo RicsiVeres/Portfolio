@@ -1,0 +1,17 @@
+:root {
+  --white: #fff;
+  --Bg: #11313f;
+  --White: #fff;
+  --Secundary: #27dfb7;
+  --Hovered: #4ceecb;
+  --bg: #11313f;
+}
+.technologies {
+  margin: 4rem 20%;
+  font-family: "Quicksand";
+}
+.technologiesBox {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 3%;
+}

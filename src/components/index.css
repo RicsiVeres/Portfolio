@@ -1,10 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
-
-:root {
-  --white: #fff;
-  --Bg: #11313f;
+html {
+  scroll-behavior: smooth;
 }
-
 * {
   font-family: "Quicksand";
   background: var(--Bg);
@@ -12,4 +9,19 @@
   background-attachment: fixed;
   background-position: center;
   color: var(--white);
+}
+.centered {
+  margin: 0 8%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+.tech {
+  padding-top: 10vw;
+  height: 30vw;
+  margin-bottom: 15vw;
+}
+.cimke {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0;
 }
