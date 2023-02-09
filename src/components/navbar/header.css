@@ -16,6 +16,8 @@
 }
 .navBtn {
   font-size: 1.5rem;
+  cursor: pointer;
+  display: none; /* kikapcsolva a router gombok*/
 }
 .navBtn a {
   margin: 0 1rem;
@@ -51,7 +53,7 @@ nav {
     justify-content: space-between;
   }
   .Navbar {
-    display: none;
+    display: flex;
   }
   body {
     margin: 0;
@@ -62,7 +64,7 @@ nav {
   }
 
   #menuToggle {
-    display: block;
+    display: none; /* hamurgermen- kikapcsolva... (block a default) */
     position: relative;
     top: 50px;
     left: 50px;
@@ -77,11 +79,6 @@ nav {
 
     transition: color 0.3s ease;
   }
-
-  #menuToggle a:hover {
-    color: tomato;
-  }
-
   #menuToggle input {
     display: block;
     width: 40px;
@@ -89,9 +86,7 @@ nav {
     position: absolute;
     top: -7px;
     left: -5px;
-
     cursor: pointer;
-
     opacity: 0;
     z-index: 2;
 
@@ -104,12 +99,9 @@ nav {
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-
     background: #cdcdcd;
     border-radius: 3px;
-
     z-index: 1;
-
     transform-origin: 4px 0px;
 
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
@@ -145,12 +137,11 @@ nav {
     margin: -5% 0 0 25%;
     padding: 50px;
     padding-top: 125px;
-
     background: var(--bg);
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     transform-origin: 0% 0%;
-    transform: translate(-100%, 0);
+    transform: translate(-120%, 0);
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
   #menu li {

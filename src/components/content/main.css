@@ -40,6 +40,7 @@
   margin-bottom: 5rem;
 }
 .btn {
+  cursor: pointer;
   width: 150px;
   text-decoration: none;
   background-color: var(--Secundary);
@@ -137,28 +138,33 @@
 }
 
 @media screen and (max-width: 850px) {
+  .content {
+    display: block;
+    margin: 10% 10%;
+  }
   #im {
     color: var(--Secundary);
     margin-left: 5px;
   }
   .left-Side p {
+    margin-top: 8%;
     font-size: 20px;
     max-width: 50%;
   }
   .left-Side {
-    margin-top: 10vh;
-  }
-  .content {
+    margin-top: 8vh;
   }
   #name {
     color: var(--Secundary);
     font-size: 3rem;
+    text-align: left;
     padding: 1rem 0;
   }
   #description {
     font-size: 1rem;
     max-width: 100%;
     margin-bottom: 5rem;
+    text-align: left;
   }
   .btn {
     width: 150px;
@@ -170,17 +176,16 @@
     color: var(--White);
     box-shadow: 3px 12px 20px #4ceecb4f;
     font-size: 20px;
+    display: block;
+    text-align: center;
   }
   .btn:hover {
     background-color: var(--Hovered);
   }
   .right-Side img {
+    display: none;
     margin-top: 55vh;
     zoom: 0.2;
-  }
-  .socialmedia {
-    display: block;
-    margin-top: 5vh;
   }
   .media-btn {
     margin: 2rem;
@@ -196,7 +201,6 @@
   .fa {
     font-size: 24px;
   }
-
   .media-btn:hover {
     color: var(--White);
     box-shadow: 0px 10px 50px #4ceecb;

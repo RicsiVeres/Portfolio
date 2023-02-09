@@ -24,7 +24,7 @@ function Header() {
             <a href="jobs">
               <li>Projects</li>
             </a>
-            <a href="#">
+            <a href="th">
               <li>Resume</li>
             </a>
           </ul>

@@ -48,14 +48,14 @@ root.render(
         link="#"
       />
     </div>
-    <div className="tech">
+    <div className="tech" id="th">
       <div className="cimke">
         <h1>Technologies</h1>
       </div>
-      <Technologies lang="Html" lvl="Beginner" value="85" />
-      <Technologies lang="Css" lvl="Beginner" value="65" />
-      <Technologies lang="Javascript" lvl="Beginner" value="58" />
-      <Technologies lang="React" lvl="Beginner" value="34" />
+      <Technologies lang="Html" lvl="Advanced" value="95" />
+      <Technologies lang="CSS" lvl="Advanced" value="75" />
+      <Technologies lang="Javascript" lvl="Beginner" value="60" />
+      <Technologies lang="React" lvl="I learn" value="34" />
     </div>
   </React.StrictMode>
 );
