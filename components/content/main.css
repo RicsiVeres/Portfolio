@@ -1,0 +1,261 @@
+@import url("https://css.gg/css?=|facebook|git-fork|instagram");
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --White: #fff;
+  --Secundary: #20c29f;
+  --Hovered: #4dd3b6;
+  --bg: #11313f;
+}
+#im {
+  color: var(--Secundary);
+  margin-left: 10px;
+}
+.left-Side p {
+  font-size: 1.5rem;
+  max-width: 50%;
+}
+.left-Side {
+  margin-top: 5vh;
+}
+.content {
+  display: flex;
+  margin: 10% 20%;
+  justify-content: space-between;
+}
+#name {
+  color: var(--Secundary);
+  font-size: 5rem;
+  padding: 1rem 0;
+}
+#job {
+  font-size: 1.3rem;
+  margin-bottom: 2.5rem;
+}
+#description {
+  font-size: 1.2rem;
+  max-width: 100%;
+  margin-bottom: 5rem;
+}
+.btn {
+  cursor: pointer;
+  width: 150px;
+  text-decoration: none;
+  background-color: var(--Secundary);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 800;
+  color: var(--White);
+  box-shadow: 3px 12px 20px #4ceecb4f;
+  font-size: 20px;
+}
+.btn:hover {
+  background-color: var(--Hovered);
+}
+.right-Side img {
+  margin-top: 5vh;
+  zoom: 0.6;
+  width: 40vw;
+  min-width: 550px;
+}
+.socialmedia {
+  display: flex;
+  margin-top: 5vh;
+}
+.media-btn {
+  margin: 2rem;
+  color: var(--Secundary);
+  margin-top: 5rem;
+  margin-left: 3rem;
+  box-shadow: 0px 1px 30px #4ceecb4f;
+  text-decoration: none;
+}
+#media-btn {
+  box-shadow: 0px 1px 30px #4ceecb4f;
+}
+.fa {
+  font-size: 24px;
+}
+
+.media-btn:hover {
+  color: var(--White);
+  box-shadow: 0px 10px 50px #4ceecb;
+}
+.hero {
+  display: flex;
+  margin-top: -1rem;
+}
+.hero .static-txt {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+}
+.hero .dynamic-txts {
+  margin-left: 0px;
+  height: 45px;
+  line-height: 45px;
+  overflow: hidden;
+}
+.dynamic-txts li {
+  list-style: none;
+  color: #16f37d;
+  font-size: 35px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100% {
+    top: -185px;
+  }
+}
+.dynamic-txts li span {
+  position: relative;
+  margin: 5px 0;
+  line-height: 45px;
+}
+.dynamic-txts li span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: var(--bg);
+  border-left: 2px solid #16f37d;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%,
+  60% {
+    left: calc(100% + 30px);
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .content {
+    display: block;
+    margin: 10% 10%;
+  }
+  #im {
+    color: var(--Secundary);
+    margin-left: 5px;
+  }
+  .left-Side p {
+    margin-top: 8%;
+    font-size: 20px;
+    max-width: 50%;
+  }
+  .left-Side {
+    margin-top: 8vh;
+  }
+  #name {
+    color: var(--Secundary);
+    font-size: 3rem;
+    text-align: left;
+    padding: 1rem 0;
+  }
+  #description {
+    font-size: 1rem;
+    max-width: 100%;
+    margin-bottom: 5rem;
+    text-align: left;
+  }
+  .btn {
+    width: 150px;
+    text-decoration: none;
+    background-color: var(--Secundary);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 800;
+    color: var(--White);
+    box-shadow: 3px 12px 20px #4ceecb4f;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+  }
+  .btn:hover {
+    background-color: var(--Hovered);
+  }
+  .right-Side img {
+    display: none;
+    margin-top: 55vh;
+    zoom: 0.2;
+  }
+  .media-btn {
+    margin: 2rem;
+    color: var(--Secundary);
+    margin-top: 5rem;
+    margin-left: 3rem;
+    box-shadow: 0px 1px 30px #4ceecb4f;
+    text-decoration: none;
+  }
+  #media-btn {
+    box-shadow: 0px 1px 30px #4ceecb4f;
+  }
+  .fa {
+    font-size: 24px;
+  }
+  .media-btn:hover {
+    color: var(--White);
+    box-shadow: 0px 10px 50px #4ceecb;
+  }
+  .hero {
+    display: block;
+    margin: 0.5rem 0px;
+  }
+  .hero .static-txt {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .hero .dynamic-txts {
+    margin-left: 0px;
+    height: 20px;
+    line-height: 23px;
+    overflow: hidden;
+  }
+  .dynamic-txts li {
+    list-style: none;
+    color: #16f37d;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+  }
+  @keyframes slide {
+    100% {
+      top: -185px;
+    }
+  }
+  .dynamic-txts li span {
+    position: relative;
+    margin: 5px 0;
+    line-height: 18px;
+  }
+  .dynamic-txts li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: var(--bg);
+    border-left: 2px solid #16f37d;
+    animation: typing 3s steps(10) infinite;
+  }
+  @keyframes typing {
+    40%,
+    60% {
+      left: calc(100% + 30px);
+    }
+    100% {
+      left: 0;
+    }
+  }
+}
